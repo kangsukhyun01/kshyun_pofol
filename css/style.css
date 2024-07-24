@@ -323,23 +323,17 @@ font-family: "Jua", sans-serif;
 }
 
 .svg_ani .pop_item.pop_one {
-    top: -20%;
-    left: 50%;
+    top: 25%;
+    left: 55%;
     background: url(../img/kang_pic_scroll.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
-
-.svg_ani .pop_item.pop_two {
-    top: 55.5%;
-    left: 64.5%;
-}
-
 .svg_ani .pop_item.ani_start {
     animation: svgpopani 1s alternate;
     opacity: 1;
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
     border: solid 2px #fff;
 }
 
@@ -1005,7 +999,7 @@ input[type=range] {
 }
 
 .card_two .card_img_box {
-    background: url(../img/project_web_hana_fullpage.png) no-repeat;
+    background: url(../img/cyberFiction_fullpage.png) no-repeat;
     background-size: cover;
     background-position: top;
     transition: 0.8s;
@@ -1019,42 +1013,42 @@ input[type=range] {
 }
 
 .card_four .card_img_box {
-    background: url(../img/project_web_musign_fullpage.png) no-repeat;
-    background-size: cover;
-    background-position: top;
-    transition: 3.5s;
-}
-
-.card_five .card_img_box {
     background: url(../img/project_web_PARALLAX\ EFFECT_fullpage.png) no-repeat;
     background-size: cover;
     background-position: top;
     transition: 3.5s;
 }
 
+.card_five .card_img_box {
+    background: url(../img/project_web_voyalabs_fullpage.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: 3.5s;
+}
+
 .card_six .card_img_box {
-    background: url(../img/project_web_responsive_fullpage.png) no-repeat;
+    background: url(../img/project_web_hana_fullpage.png) no-repeat;
     background-size: cover;
     background-position: top;
     transition: 3.5s;
 }
 
 .card_seven .card_img_box {
-    background: url(../img/porject_web_sushi_fullpage.png) no-repeat;
+    background: url(../img/project_web_responsive_fullpage.png) no-repeat;
     background-size: cover;
     background-position: top;
     transition: 3.5s;
 }
 
 .card_eight .card_img_box {
-    background: url(../img/cyberFiction_fullpage.png) no-repeat;
+    background: url(../img/project_web_musign_fullpage.png) no-repeat;
     background-size: cover;
     background-position: top;
     transition: 3.5s;
 }
 
 .card_nine .card_img_box {
-    background: url(../img/project_web_voyalabs_fullpage.png) no-repeat;
+    background: url(../img/porject_web_sushi_fullpage.png) no-repeat;
     background-size: cover;
     background-position: top;
     transition: 3.5s;

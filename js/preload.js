@@ -16,8 +16,10 @@ setTimeout(function () {
         duration: 1.5,
         onUpdate:function scrollPrevent(){
             showLoadingScreen();
+            sp= requestAnimationFrame(scrollPrevent)//2번줄
             setTimeout(()=>{
                 cancelAnimationFrame(sp);
+                hideLoadingScreen();//6번줄
             }, 10);
         },
     })

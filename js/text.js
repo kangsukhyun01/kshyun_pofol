@@ -111,20 +111,14 @@ document.addEventListener("DOMContentLoaded", () => {
     function animationUpdate() {
         let pg = animation.progress()
         let popItmes = document.querySelectorAll(".pop_item")
-        // console.log(pg);
+        console.log(pg);
         let secondBox=document.querySelector(".text_wrap")
 
-        if (pg >= 0.389) {
+        if (pg >= 0.5) {
             popItmes[0].classList.add("ani_start")
         }
-        else if (pg <= 0.38) {
+        else if (pg <= 0.49) {
             popItmes[0].classList.remove("ani_start")
-        };
-        if (pg >= 0.52) {
-            popItmes[1].classList.add("ani_start")
-        }
-        else if (pg <= 0.518) {
-            popItmes[1].classList.remove("ani_start")
         };
         if (pg >= 0.815) {
             moveItem.style.opacity = 0

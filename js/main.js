@@ -477,24 +477,49 @@ skillTextInfo.forEach((e, i) => {
 
 let cardWrap = document.querySelector(".project_wrap")
 //------------------- 페이지 메뉴
-let cardBtn=document.querySelectorAll(".project_card")
+let cardBtnSix=document.querySelector(".card_six") //!!!!!!!//
+let cardBtnFive=document.querySelector(".card_five") //!!!!!!!//
+let cardBtnFour=document.querySelector(".card_four") //!!!!!!!//
 let menuBar = document.querySelector(".project_card_wrap")
 let cardMenu = document.querySelector(".card_menu")
 let cardContainer = document.querySelectorAll(".project_card_container")
 let menuBtn = document.querySelectorAll(".card_text_box") /* 페이지 나오는 버튼 */
 let fullPage = document.querySelectorAll(".card_img_box")
 
-// cardBtn[0].addEventListener('click', function() {
-//     document.getElementById('pjp_one').scrollIntoView({ behavior: 'smooth' });
-// });
 
 
-cardBtn[6].addEventListener('click', function() {
-    const target = document.getElementById('pjp_one');
-    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+cardBtnSix.addEventListener('click', function() {
+    const target = document.getElementById('pjp_six');
+    const targetPosition = target.getBoundingClientRect().top  + window.pageYOffset;
     const targetHeight = target.offsetHeight;
     const windowHeight = window.innerHeight;
-    const scrollPosition = targetPosition - (windowHeight / 2) + (targetHeight / 2);
+    const scrollPosition = targetPosition - (windowHeight / 2) + (targetHeight / 1.5);
+
+    window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+    });
+});
+
+cardBtnFive.addEventListener('click', function() {
+    const target = document.getElementById('pjp_five');
+    const targetPosition = target.getBoundingClientRect().top  + window.pageYOffset;
+    const targetHeight = target.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const scrollPosition = targetPosition - (windowHeight / 2) + (targetHeight / 1.5);
+
+    window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+    });
+});
+
+cardBtnFour.addEventListener('click', function() {
+    const target = document.getElementById('pjp_four');
+    const targetPosition = target.getBoundingClientRect().top  + window.pageYOffset;
+    const targetHeight = target.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const scrollPosition = targetPosition - (windowHeight / 2) + (targetHeight / 1.5);
 
     window.scrollTo({
         top: scrollPosition,
