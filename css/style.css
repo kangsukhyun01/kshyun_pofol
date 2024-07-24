@@ -710,7 +710,6 @@ input[type=range] {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-    z-index: 5000;
 }
 
 .scroll_info {
@@ -758,7 +757,6 @@ input[type=range] {
     transition: 0.6s;
     transform: translateZ(10px);
     z-index: 100;
-    padding: 1.5;
     box-sizing: border-box;
     /* overflow: scroll; */
     overflow: hidden;

@@ -14,6 +14,9 @@
 .col_svg_scroll{
 	text-transform: uppercase;
 }
+.content_wrap_left{
+	margin-bottom: 10%;
+}
 .content-wrap {
 	display: grid;
 	place-items: center;
