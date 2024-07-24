@@ -1133,6 +1133,7 @@ font-family: "Jua", sans-serif;
     transition: 0.7s;
     border-radius: 25px;
     overflow: hidden;
+    transform-origin: top center;
 }
 
 .mywork_item .mywork_img {
