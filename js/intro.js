@@ -96,7 +96,7 @@ const tick = () => {
 
     // Add rotation to the model
     if (model) {
-        model.rotation.y += 0.002; // 0.002 Adjust the rotation speed as needed
+        model.rotation.y += 0.001; // 0.002 Adjust the rotation speed as needed
     }
 
     effect.render(scene, camera)
