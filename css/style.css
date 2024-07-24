@@ -321,19 +321,25 @@ font-family: "Jua", sans-serif;
     transform-origin: center;
     z-index: 5;
 }
-
 .svg_ani .pop_item.pop_one {
-    top: 25%;
-    left: 55%;
+    top: -5%;
+    left: 47.5%;
     background: url(../img/kang_pic_scroll.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.svg_ani .pop_item.pop_two {
+    top: 65%;
+    left: 61%;
+    background: url(../img/kang_pic_scroll_two.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .svg_ani .pop_item.ani_start {
     animation: svgpopani 1s alternate;
     opacity: 1;
-    width: 20vw;
-    height: 20vw;
+    width: 12vw;
+    height: 12vw;
     border: solid 2px #fff;
 }
 

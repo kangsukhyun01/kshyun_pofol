@@ -114,12 +114,18 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(pg);
         let secondBox=document.querySelector(".text_wrap")
 
-        if (pg >= 0.5) {
+        if (pg >= 0.41) {
             popItmes[0].classList.add("ani_start")
         }
-        else if (pg <= 0.49) {
+        else if (pg <= 0.4) {
             popItmes[0].classList.remove("ani_start")
         };
+        if(pg >= 0.57){
+            popItmes[1].classList.add("ani_start")
+        }
+        else if (pg <= 0.56) {
+            popItmes[1].classList.remove("ani_start")
+        }; 
         if (pg >= 0.815) {
             moveItem.style.opacity = 0
             moveItem.style.transition = "0.3s"
