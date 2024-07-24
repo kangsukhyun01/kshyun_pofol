@@ -172,7 +172,7 @@ body {
 }
 .content__item-description {
 	bottom: 50%;
-    right: -75%;
+    right: -80%;
     display: flex;
 	flex-direction: column-reverse;
 	width: 70%;
