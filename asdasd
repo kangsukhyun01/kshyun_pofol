@@ -1,0 +1,137 @@
+  <div id="pjp_four" class="content__item column__item">
+      <div class="content__item-imgwrap">
+          <div class="content__item-img" style="background-image: url(./img/parallax.png);"></div>
+      </div>
+      <div class="content__item-deco"></div>
+      <h2 class="content__item-title">PARALLAX EFFECT</h2>
+      <div class="content__item-description">
+          PARALLAX EFFECT를 이용한 사이트입니다.<br>
+          <div class="go_web">
+              <a href="#" onclick="window.open('https://kang-parallexeffect.netlify.app')"><i
+                      class="fas fa-desktop"></i>
+                  <p>desktop</p>
+              </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div id="pjp_five" class="content__item content__item--wide">
+      <div class="content__item-imgwrap">
+          <div class="content__item-img" style="background-image: url(./img/voyalabs.png);">
+          </div>
+      </div>
+      <div class="content__item-deco"></div>
+      <h2 class="content__item-title">VOYALABS</h2>
+      <div class="content__item-description">
+          UI/UX 디자인, 그래픽 디자인사이트<br> VOYALABS입니다.<br>
+          <div class="go_web">
+              <a href="#" onclick="window.open('https://kang-voyalab.netlify.app')"><i class="fas fa-desktop"></i>
+                  <p>desktop</p>
+              </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div id="pjp_six" class="content__item content__item--wide">
+      <div class="content__item-imgwrap">
+          <div class="content__item-img" style="background-image: url(./img/hanacard.png);">
+          </div>
+      </div>
+      <div class="content__item-deco"></div>
+      <h2 class="content__item-title">HANA CARD</h2>
+      <div class="content__item-description">
+          하나은행의 하나카드 사이트<br> keyframe을 이용하여 만든 반응형웹입니다.<br>
+          <div class="go_web">
+              <a href="#" onclick="window.open('https://kang-hanacard.netlify.app')"><i class="fas fa-desktop"></i>
+                  <p>desktop</p>
+              </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div id="pjp_seven" class="content__item content__item--wide">
+      <div class="content__item-imgwrap">
+          <div class="content__item-img" style="background-image: url(./img/responsive.png);">
+          </div>
+      </div>
+      <div class="content__item-deco"></div>
+      <h2 class="content__item-title">RESPONSIVE</h2>
+      <div class="content__item-description">
+          RESPONSIVE(반응형) 웹사이트입니다.<br>
+          <div class="go_web">
+              <a href="#"
+                  onclick='window.open("https://kang-responsive.netlify.app", "모바일버전", "resizable=yes,top=500,left=500,width=400,height=818", "top=100", "left=300",)'><i
+                      class="fas fa-mobile-alt"></i>
+                  <p>moblie</p>
+              </a>
+              <a href="#"
+                  onclick='window.open("https://kang-responsive.netlify.app", "모바일버전", "resizable=yes,top=500,left=500,width=700,height=818", "top=100", "left=300",)'><i
+                      class="fas fa-tablet-alt"></i>
+                  <p>tablet</p>
+              </a>
+              <a href="#" onclick="window.open('https://kang-responsive.netlify.app')"><i class="fas fa-desktop"></i>
+                  <p>desktop</p>
+              </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div id="pjp_eight" class="content__item content__item--wide">
+      <div class="content__item-imgwrap">
+          <div class="content__item-img" style="background-image: url(./img/musign.png);">
+          </div>
+      </div>
+      <div class="content__item-deco"></div>
+      <h2 class="content__item-title">MUSIGN</h2>
+      <div class="content__item-description">
+          MUSIGN 디자인사이트 반응형웹사이트입니다.<br>
+          <div class="go_web">
+              <a href="#"
+                  onclick='window.open("https://kang-musign.netlify.app", "모바일버전", "resizable=yes,top=500,left=500,width=400,height=818", "top=100", "left=300",)'><i
+                      class="fas fa-mobile-alt"></i>
+                  <p>moblie</p>
+              </a>
+              <a href="#"
+                  onclick='window.open("https://kang-musign.netlify.app", "모바일버전", "resizable=yes,top=500,left=500,width=700,height=818", "top=100", "left=300",)'><i
+                      class="fas fa-tablet-alt"></i>
+                  <p>tablet</p>
+              </a>
+              <a href="#" onclick="window.open('https://kang-musign.netlify.app')"><i class="fas fa-desktop"></i>
+                  <p>desktop</p>
+              </a>
+          </div>
+      </div>
+
+  </div>
+
+  <div id="pjp_nine" class="content__item content__item--wide">
+      <div class="content__item-imgwrap">
+          <div class="content__item-img" style="background-image: url(./img/sushi.png);">
+          </div>
+      </div>
+      <div class="content__item-deco"></div>
+      <h2 class="content__item-title">SUSHI</h2>
+      <div class="content__item-description">
+          SUSHI주문사이트 나이트모드가 사용되는 <br>반응형 웹사이트 입니다.<br>
+          <div class="go_web">
+              <a href="#"
+                  onclick='window.open("https://kang-sushi.netlify.app", "모바일버전", "resizable=yes,top=500,left=500,width=400,height=818", "top=100", "left=300",)'><i
+                      class="fas fa-mobile-alt"></i>
+                  <p>moblie</p>
+              </a>
+              <a href="#"
+                  onclick='window.open("https://kang-sushi.netlify.app", "모바일버전", "resizable=yes,top=500,left=500,width=700,height=818", "top=100", "left=300",)'><i
+                      class="fas fa-tablet-alt"></i>
+                  <p>tablet</p>
+              </a>
+              <a href="#" onclick="window.open('https://kang-sushi.netlify.app')"><i class="fas fa-desktop"></i>
+                  <p>desktop</p>
+              </a>
+          </div>
+      </div>
+
+  </div>

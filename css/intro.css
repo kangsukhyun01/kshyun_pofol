@@ -1,0 +1,20 @@
+.webWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+
+.webWrap canvas {
+  width: 100% !important;
+  height: 100% !important;
+
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -55%);
+}
