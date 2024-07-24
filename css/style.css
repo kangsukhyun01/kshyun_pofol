@@ -927,7 +927,7 @@ input[type=range] {
     gap: 2rem;
 }
 
-.go_web a {
+.go_web .a {
     display: flex;
     width: 4rem;
     flex-direction: column;
@@ -937,6 +937,7 @@ input[type=range] {
     color: var(--text_color);
     text-decoration: none;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .content__item#pjp_one,
@@ -948,7 +949,7 @@ input[type=range] {
     flex-direction: row-reverse;
 }
 
-.go_web a:hover {
+.go_web .a:hover {
     color: #757575;
 }
 
