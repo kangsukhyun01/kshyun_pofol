@@ -387,8 +387,6 @@ let skillVal = document.querySelectorAll(".skill_item")
 let skillTxt = document.querySelectorAll(".skill_text")
 // scollTrigger
 gsap.set(skillVal,{
-    x:0,
-    y:0
 })
 tl({
         scrollTrigger: {
@@ -400,36 +398,36 @@ tl({
         }
     })
     .to(skillVal[0], {
-        yPercent: -150,
+        yPercent: -100,
         opacity: 1,
         delay: 1.75
     }, 2)
     .to(skillVal[1], {
-        yPercent: -100,
-        xPercent: 41.75,
+        yPercent: -50,
+        xPercent: 85,
         opacity: 1,
         delay: 1.75
     }, 2.2)
     .to(skillVal[2], {
-        yPercent: 0,
-        xPercent: 41.75,
+        yPercent: 50,
+        xPercent: 85,
         opacity: 1,
         delay: 1.75
     }, 2.4)
     .to(skillVal[3], {
-        yPercent: 50,
+        yPercent: 100,
         opacity: 1,
         delay: 1.75
     }, 2.6)
     .to(skillVal[4], {
-        yPercent: 0,
-        xPercent: -141.75,
+        yPercent: 50,
+        xPercent: -85,
         opacity: 1,
         delay: 1.75
     }, 2.8)
     .to(skillVal[5], {
-        yPercent: -100,
-        xPercent: -141.75,
+        yPercent: -50,
+        xPercent: -85,
         opacity: 1,
         delay: 1.75
     }, 2.8)
@@ -486,7 +484,23 @@ let cardContainer = document.querySelectorAll(".project_card_container")
 let menuBtn = document.querySelectorAll(".card_text_box") /* 페이지 나오는 버튼 */
 let fullPage = document.querySelectorAll(".card_img_box")
 
+// cardBtn[0].addEventListener('click', function() {
+//     document.getElementById('pjp_one').scrollIntoView({ behavior: 'smooth' });
+// });
 
+
+cardBtn[6].addEventListener('click', function() {
+    const target = document.getElementById('pjp_one');
+    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+    const targetHeight = target.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const scrollPosition = targetPosition - (windowHeight / 2) + (targetHeight / 2);
+
+    window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+    });
+});
 //------------------- 페이지 이미지
 
 let papl = document.querySelector(".svg_wrap")
