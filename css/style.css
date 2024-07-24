@@ -939,7 +939,18 @@ input[type=range] {
     transition: 0.3s;
     cursor: pointer;
 }
-
+.go_web a {
+    display: flex;
+    width: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    color: var(--text_color);
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
 .content__item#pjp_one,
 .content__item#pjp_three {
     left: -30.25%;
@@ -952,7 +963,9 @@ input[type=range] {
 .go_web .a:hover {
     color: #757575;
 }
-
+.go_web a:hover {
+    color: #757575;
+}
 /* ------ card hover ------ */
 .card_menu:hover+.project_card_container {
     width: 37.5vw;
